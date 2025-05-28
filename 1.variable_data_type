@@ -1,0 +1,1823 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "0a96fcc7-30e4-49cf-94d7-9c4f6d8ba8c5",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "hello ttenk kong\n"
+     ]
+    }
+   ],
+   "source": [
+    "print('hello ttenk kong')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "7ff1ed69-9851-429e-ac62-7c989ca34897",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      " 한\n",
+      " 지훈\n"
+     ]
+    },
+    {
+     "data": {
+      "text/plain": [
+       "'한지훈'"
+      ]
+     },
+     "execution_count": 13,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# 변수 = 함수\n",
+    "# 안녕하세요\n",
+    "# 바보세요\n",
+    "age = input()\n",
+    "name = input()\n",
+    "age + name"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "e83e95cb-6ac3-465a-a7bf-acf340db0e41",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      " 한\n",
+      " 지훈\n"
+     ]
+    },
+    {
+     "data": {
+      "text/plain": [
+       "'한지훈'"
+      ]
+     },
+     "execution_count": 13,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# 변수 = 함수\n",
+    "# 안녕하세요\n",
+    "# 바보세요\n",
+    "age = input()\n",
+    "name = input()\n",
+    "age + name"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 29,
+   "id": "7146a83e-f429-48ef-b0c6-3b47aa6d6ce9",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "양수입니다\n"
+     ]
+    }
+   ],
+   "source": [
+    "def calculate_sum(a, b):\n",
+    "    result = a + b\n",
+    "    return result\n",
+    "\n",
+    "if calculate_sum(3,4)> 0:\n",
+    "    print(\"양수입니다\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 29,
+   "id": "44529390-2e56-4874-9b67-ffc3c921369e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "양수입니다\n"
+     ]
+    }
+   ],
+   "source": [
+    "def calculate_sum(a, b):\n",
+    "    result = a + b\n",
+    "    return result\n",
+    "\n",
+    "if calculate_sum(3,4)> 0:\n",
+    "    print(\"양수입니다\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "071033ef-47b1-4c7c-b907-5d29a5f8db95",
+   "metadata": {},
+   "source": [
+    "# 주석\n",
+    "안녕하세요 코딩의 재앙 한지훈님등장이다"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "48cf0b00-d9e8-4347-83c9-a083ff3c4cee",
+   "metadata": {},
+   "source": [
+    "# 변수"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "1065ff16-857b-47d0-872b-d87c4150d59f",
+   "metadata": {},
+   "source": [
+    "# 표준 입력과 표준 출력"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 34,
+   "id": "98579cae-c6f0-4daa-97df-4748e12fe99b",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "10"
+      ]
+     },
+     "execution_count": 34,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "12345\n",
+    "10\n",
+    "# ipython 라이브러리 기본 기능\n",
+    "# print(12345) 표준출력 기능을 내장하고 있다."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 48,
+   "id": "aecb6047-fa75-4a19-882a-748dff892ffd",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'한지훈한지훈한지훈'"
+      ]
+     },
+     "execution_count": 48,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# type(\"12345\") = type('123') = str -> 텍스트 : 더하기 x 곱하기 o \n",
+    "# typr(123) = int -> 숫자\n",
+    "\n",
+    "#EX\n",
+    "'한지훈'*3"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 54,
+   "id": "c312b0d9-9cf2-4892-8b69-b7ca955f1fcf",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "당신의 이름을 입력하세요 안재이\n"
+     ]
+    }
+   ],
+   "source": [
+    "name = input('당신의 이름을 입력하세요') #뭔가를 받을 수 있음 "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 83,
+   "id": "643370b4-a7a2-4463-a1a6-4c53dfbbd1a0",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "당신의 나이를 입력하세요 24\n"
+     ]
+    },
+    {
+     "data": {
+      "text/plain": [
+       "24"
+      ]
+     },
+     "execution_count": 83,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "age = int(input('당신의 나이를 입력하세요')) #뭔가를 받을 수 있음 \n",
+    "age"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 84,
+   "id": "3df8e876-da4c-428b-af5a-9de7596db3f3",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#age = int(age)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 56,
+   "id": "4aa12a3b-b9e5-4972-8cdb-820136e93f7e",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'안재이'"
+      ]
+     },
+     "execution_count": 56,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "name"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 85,
+   "id": "d5c86f59-041d-4037-a326-0ea48c3efb84",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "24 안재이\n"
+     ]
+    },
+    {
+     "data": {
+      "text/plain": [
+       "24"
+      ]
+     },
+     "execution_count": 85,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "print(age, name)\n",
+    "age, name\n",
+    "age"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 71,
+   "id": "e3fef053-8869-4a0b-945c-49a984a09a11",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "나는 안재이이고 나이는 10,000살입니다.\n"
+     ]
+    }
+   ],
+   "source": [
+    "print('나는 '+name+'이고 나이는 '+age+'입니다.')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 86,
+   "id": "fbf2724b-66bd-49ac-b590-f7ea06cd9c31",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "34"
+      ]
+     },
+     "execution_count": 86,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "age + 10"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "02a07bc9-29a7-4933-afea-164366952d55",
+   "metadata": {},
+   "source": [
+    "# 연습"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 87,
+   "id": "ed9abe28-69d4-47d8-906c-5f7354e6cf27",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "한: 방에 웃음 짓고 \n",
+      "지: 혜를 더해 가며\n",
+      "훈: 훈히 나아가자\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 자기 이름으로 삼행시 짓기\n",
+    "\n",
+    "print('한: 방에 웃음 짓고 ')\n",
+    "print('지: 혜를 더해 가며')\n",
+    "print('훈: 훈히 나아가자')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 95,
+   "id": "c81015fd-0ec5-44b4-82c6-5355b2320969",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "한:  한지훈은\n",
+      "지:  ㅈ ㅣ 랄맞은 별명이 있다\n",
+      "훈:  \"훈발롬\"\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "한지훈은! ㅈ ㅣ 랄맞은 별명이 있다! \"훈발롬\"\n"
+     ]
+    }
+   ],
+   "source": [
+    "line1 = input('한: ')\n",
+    "line2 = input('지: ')\n",
+    "line3 = input('훈: ')\n",
+    "print(line1, line2, line3, sep='! ')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 96,
+   "id": "f6a6e6db-8fe1-4e11-b6d4-b3b4f30987d5",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "한지훈은\n",
+      "ㅈ ㅣ 랄맞은 별명이 있다\n",
+      "\"훈발롬\"\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(line1, line2, line3, sep='\\n')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 97,
+   "id": "94fc9c48-8f05-471c-a006-0ca9c52d1ea3",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "한지훈은\tㅈ ㅣ 랄맞은 별명이 있다\t\"훈발롬\"\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(line1, line2, line3, sep='\\t')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 127,
+   "id": "72fd64c8-3b3c-4492-89b9-0ad0e0ff272d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "한지훈은\n",
+      "ㅈ ㅣ 랄맞은 별명이 있다\n",
+      "\"훈발롬\"\n"
+     ]
+    },
+    {
+     "data": {
+      "text/plain": [
+       "'한지훈은\\nㅈ ㅣ 랄맞은 별명이 있다\\n\"훈발롬\"'"
+      ]
+     },
+     "execution_count": 127,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "삼행시 = line1+'\\n'+line2+'\\n'+line3\n",
+    "print(삼행시) #print는 이스케이프 함수도 인식해준다\n",
+    "삼행시 #이스케이프 함수 인식 못함ㅠ "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "70317693-052a-4096-ba30-ab49c92ea89d",
+   "metadata": {},
+   "source": [
+    "# 변수"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "deffa302-f6a6-4a10-9fc3-da6728f1b4a0",
+   "metadata": {},
+   "source": [
+    "#변수는 type safe : 변수를 선언할 때 타입(유형)을 지정하지 않아도 되는 특성   \n",
+    "변수명 = 값"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "72889af1-8bdf-4998-b3fc-5af3f64f9750",
+   "metadata": {},
+   "source": [
+    "      \n",
+    "## 변수의 명명규칙\n",
+    "1. 문자, 숫자, 밑줄을 가지고 만든다\n",
+    "2. 숫자로 시작하면 안된다\n",
+    "3. 대소문자를 구분한다\n",
+    "4. 공백 x\n",
+    "5. 특수기호, 공백x, 예약어 쓸 수 없다   \n",
+    "   False = 10 -> 안됨   \n",
+    "   fales = 10 -> 가능"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 121,
+   "id": "abf2085e-fe07-4741-ac81-c22ed2b0a0f2",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "(10, 'hello', 3.141592)"
+      ]
+     },
+     "execution_count": 121,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "x = 10\n",
+    "y = 'hello'\n",
+    "z = 3.141592\n",
+    "x,y,z"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 122,
+   "id": "9d211b68-4a46-4408-b014-e49f31349340",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "<class 'int'> <class 'str'> <class 'float'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(type(x),type(y),type(z))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 129,
+   "id": "10bbd8e9-bcee-454e-a815-6e34f070cf77",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "(10, 20, 30)"
+      ]
+     },
+     "execution_count": 129,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#언팩킹\n",
+    "a,b,c= 10,20,30\n",
+    "a,b,c"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 130,
+   "id": "c2bebbbb-0e21-41a5-a98b-50dacc5c17e8",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "10 20 30\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(a,b,c)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 131,
+   "id": "faa3c62b-d07e-4b4d-bb6a-0223595aaee3",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "(40, 40, 40)"
+      ]
+     },
+     "execution_count": 131,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a=b=c=40\n",
+    "a,b,c"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 135,
+   "id": "4c6b0cd6-275c-4643-a24a-f1c2766f93a8",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "(True, None)"
+      ]
+     },
+     "execution_count": 135,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "d = True # bool형\n",
+    "e = None #type이 없음 NoneType\n",
+    "d,e"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 139,
+   "id": "9d2c3cc7-38fe-46b8-a3a8-7b1ddc8c653d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "10 10\n"
+     ]
+    },
+    {
+     "data": {
+      "text/plain": [
+       "(140737074178776, 140737074178776)"
+      ]
+     },
+     "execution_count": 139,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a = 10\n",
+    "b = a\n",
+    "print(a,b)\n",
+    "id(a), id(b)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 140,
+   "id": "825fe11d-7e4a-4182-9f08-d0bd1cddaf85",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "20 10\n"
+     ]
+    },
+    {
+     "data": {
+      "text/plain": [
+       "(140737074179096, 140737074178776)"
+      ]
+     },
+     "execution_count": 140,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a = 20\n",
+    "print(a,b)\n",
+    "id(a), id(b)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "bebb1118-2d35-4ff8-9e1a-209387a49b7f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "10 10\n"
+     ]
+    },
+    {
+     "data": {
+      "text/plain": [
+       "(140737074178776, 140737074178776, 140737074179096)"
+      ]
+     },
+     "execution_count": 4,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a = 10\n",
+    "c = 20 \n",
+    "b = 10 # -> 10의 값을 재활용 중이다 \n",
+    "print(a,b)\n",
+    "id(a), id(b), id(c)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "0e2a1250-767a-4160-9766-4c1bf0ca80cb",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "10 10\n"
+     ]
+    },
+    {
+     "data": {
+      "text/plain": [
+       "(140737074178776, 140737074178776)"
+      ]
+     },
+     "execution_count": 5,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "aa = 10\n",
+    "bb = aa\n",
+    "print(aa,bb)\n",
+    "id(aa),id(bb)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "341fb79d-d84b-4756-92e9-df66e78689be",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#의미 부여하기 어려운 변수명\n",
+    "x = 100\n",
+    "y = 100\n",
+    "\n",
+    "#의미있는 변수명\n",
+    "age = 20\n",
+    "name = '신해림'\n",
+    "user_name = 'tteng kkong'\n",
+    "admin_name = 'prinssese'\n",
+    "\n",
+    "#대문자 upper-case 상수에만 사용\n",
+    "#ex) PI=3.1415912\n",
+    "#ex) MAX_CONNECTTIONS = 10 최대 연결 수\n",
+    "#ex) MIN_VALUE = 0 최솟값"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "1645bce2-9393-4568-addd-2c4684affa46",
+   "metadata": {},
+   "source": [
+    "## NAME_SPACE\n",
+    "\n",
+    "변수가 최초로 정의된 영역에 따라 유효범위가 결정됩니다\n",
+    "- 지역변수 : 함수 영역 내에서 선언한 변수\n",
+    "- 전역변수 : 함수 영역 밖에서 선언한 변수\n",
+    "- 정적변수 : "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "a75a109e-7ac0-4b87-be57-a91a95a1687a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "여기는 함수의 영역입니다. 100\n",
+      "None\n",
+      "여기는 함수의 영역입니다. 100\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 지역변수 -> 함수 안에서 만들면 밖으로 못나옴 함수가 울타리라 생각하면 쉬움\n",
+    "def local_example():\n",
+    "    local_var = 100\n",
+    "    print('여기는 함수의 영역입니다.',local_var)\n",
+    "\n",
+    "print(local_example())\n",
+    "local_example()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "98d907f4-460b-476b-93c9-8880a9218f8c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "나는 전역이다\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 전역 변수 -> 울타리 없이 만든 거라 어디서든 사용 가능 \n",
+    "global_var = '나는 전역이다'\n",
+    "print(global_var)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "38d041e3-b0f5-49f8-9b37-b6f014b88c2e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "나는 전역이다 100\n"
+     ]
+    }
+   ],
+   "source": [
+    "def global_example():\n",
+    "    local_var = 100\n",
+    "    print(global_var, local_var)\n",
+    "global_example()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "id": "7d105b5c-b946-43e5-83cd-498bf7899103",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "3\n"
+     ]
+    },
+    {
+     "data": {
+      "text/plain": [
+       "3"
+      ]
+     },
+     "execution_count": 26,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "jeehun = 3\n",
+    "def hanjeehun():\n",
+    "    global jeehun #gloval jeehun = 100 변수와 할당을 동시할 수 없음 \n",
+    "    print(jeehun)\n",
+    "\n",
+    "hanjeehun()\n",
+    "jeehun"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 163,
+   "id": "2310d2b4-074b-40a7-ba21-ddb3b5431882",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "카운터 :  1\n",
+      "카운터 :  2\n",
+      "카운터 :  3\n"
+     ]
+    }
+   ],
+   "source": [
+    "#변수 영역 연습\n",
+    "\n",
+    "counter = 0 #global\n",
+    "\n",
+    "def increment_counter():#counter = counter +1\n",
+    "    global counter \n",
+    "    counter += 1\n",
+    "    print('카운터 : ',counter)\n",
+    "\n",
+    "increment_counter()\n",
+    "increment_counter()\n",
+    "increment_counter()\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 162,
+   "id": "fd9a308a-bdc9-4e1e-8b3e-64e76f296c5f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "카운터 :  92\n"
+     ]
+    }
+   ],
+   "source": [
+    "increment_counter()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "a0286413-2742-4010-b5fc-bed484969cbb",
+   "metadata": {},
+   "source": [
+    "# 교재 변수 연습"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 207,
+   "id": "13ad5848-5ffb-43cd-96db-94605e40eb04",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['chuchu', '박지혜', '서빛나리']"
+      ]
+     },
+     "execution_count": 207,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#리스트를 연동하는 게 아니라 복사하고 싶을 때 (기본적으론 연동됨)\n",
+    "#연동\n",
+    "barktaeyang = ['박봅슬','박지혜','서빛나리']\n",
+    "girlfriend = barktaeyang\n",
+    "barktaeyang[0] = 'chuchu' # 안에 요소들을 바꿀 때는 안에 요소가 아니라 리스트 순서로 바꿔야 함  0,1,2 등)\n",
+    "girlfriend\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "8db396d7-f19b-42f0-aec0-de9b0912eae8",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#복붙\n",
+    "d=[1,2,3]\n",
+    "f = d[:] #순서가 중요함 d가 먼저 나오면 안됨 정의하고자 하는 걸 먼저 적어야 함 \n",
+    "d[2]=4 #여기서 1은 순서를 말함 0,1,2가 순서인데 1-0 / 2-1 / 3-2\n",
+    "f,d"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "478625ad-cd40-4e15-8634-9bd92307e42d",
+   "metadata": {},
+   "source": [
+    "국어,영어,수학 = (80,75,55)\n",
+    "print(국어)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 211,
+   "id": "4cf4b1aa-3bfb-44c7-bd8c-787422ff2fbc",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "과목=국어,영어,수학 = (80,75,55)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "3a8a20ee-3e8d-4c22-82ba-86812073919f",
+   "metadata": {},
+   "source": [
+    "#자료형 \n",
+    "\n",
+    "- 기본 자료형 : 숫자열형 int, 문자열형 str, 부울형\n",
+    "- 복합 자료형 : 리스트, 셋, 튜플, 딕셔너리\n",
+    "\n",
+    "자료형 ㅣ 설명 ㅣ 예시 ㅣ\n",
+    "ㅣ-----ㅣ-----ㅣ-----ㅣ\n",
+    "정수형 (int)\n",
+    "정수를 저장하는 자료형\n",
+    "1, -5, 100\n",
+    "실수형 (float)\n",
+    "소수점이 있는 숫자를 저장하는 자료형\n",
+    "3.14, -0.001, 2.0\n",
+    "문자열 (str)\n",
+    "텍스트를 저장하는 자료형\n",
+    "\"Hello\", '파이썬'\n",
+    "논리형 (bool)\n",
+    "참/거짓 값을 저장하는 자료형\n",
+    "True, Fals\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "d271f20b-5a6c-45cc-bf2d-653a625b7472",
+   "metadata": {},
+   "source": [
+    "- 수정 불가능한 데이터 타입 : 수치형, 부울형, 문자열, 튜플\n",
+    "- 수정 가능한 데이터 타입: 리스트, 딕셔너리, 셋\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 213,
+   "id": "fb985ade-56e4-4269-a549-35b8d52091ae",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "(20, int)"
+      ]
+     },
+     "execution_count": 213,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#수치형 - int\n",
+    "20, type(20)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "d473701e-9a2c-4500-89c8-ca83faa335c1",
+   "metadata": {},
+   "source": [
+    "int\n",
+    "1.진법:10진수, 2진수, 8진수, 16진수\n",
+    "2.입력하는 방법은 다르지만, print()결과는 동일하다"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 234,
+   "id": "73ba9b1a-6f70-4e96-8003-87cb9f7dd3d4",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "5"
+      ]
+     },
+     "execution_count": 234,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a = 10\n",
+    "b = 0b0101 #2진수 - 0/1로 표현하는 방법 ->0101=2^3*0 + 2^2*1 + 2^1*0 + 2^0*1=\n",
+    "b"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 236,
+   "id": "a84d348b-afee-4f05-9f29-70132f6e2f82",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "(512, 512)"
+      ]
+     },
+     "execution_count": 236,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "c = 0o1000 #0o 8진수 , 10 -> 8^1*1+8^0*0 11->8^1+8^1 / 100=64 / 1000\n",
+    "c, 64*8"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 216,
+   "id": "efa601f4-4a34-4df4-b284-a914a3cb7520",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "8"
+      ]
+     },
+     "execution_count": 216,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "d = 0b1000\n",
+    "d"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 248,
+   "id": "42df98a8-6d6f-4504-b3f0-f67f96d7828f",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "(413, 413)"
+      ]
+     },
+     "execution_count": 248,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "e = 0x19d #> 1*16^2+6*16^1+d(13)*16^0(1) 19d = d(13)*16^1 + 9*16^1 + 1*16^2\n",
+    "(16**2)*1 + (16**1)*9 + (16**0)*13, e #제곱하려면 ^대신 * 두개쓸 것 "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 247,
+   "id": "ce4803d6-3a96-4b0c-b02d-8bc2c2659af6",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "256"
+      ]
+     },
+     "execution_count": 247,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "1*(16**2)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 223,
+   "id": "43b67165-27c6-43c3-ab99-9748755ea729",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "(3.14, float)"
+      ]
+     },
+     "execution_count": 223,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#flot\n",
+    "b = 3.14\n",
+    "b, type(b)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b996dac1-81b3-4c67-af03-aa67b6966e71",
+   "metadata": {},
+   "source": [
+    "### 지수의 표기\n",
+    "숫자e2 -> 10^2의 곱 = 10**2\n",
+    "숫자e-2 -> 10^-2의 곱 = 10**-2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 230,
+   "id": "4969617f-a5b0-4564-95be-9fd7e8cd9519",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "(1000.0, 1000)"
+      ]
+     },
+     "execution_count": 230,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "fa = 10e2\n",
+    "fa, 10**3"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 255,
+   "id": "81f8bbf9-8767-4b99-b55d-0487017d3d63",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "(200.0, 200)"
+      ]
+     },
+     "execution_count": 255,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "fb = 2e2 #e를 10**이라 생각하면됨 2*10**2\n",
+    "fb, 2*10**2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 231,
+   "id": "c283b489-99ae-4509-866f-05f637e57b9f",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "3141500000.0"
+      ]
+     },
+     "execution_count": 231,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "fc = 3.1415e9\n",
+    "fc"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "e751a493-a7e9-43e8-814c-00a21da52c06",
+   "metadata": {},
+   "source": [
+    "# 불리언 BOOLEAN 값 - True, False\n",
+    "논리연산, 비교연산"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 232,
+   "id": "1479a656-4e2d-4442-a3ee-5314a8115c8a",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "(bool, str)"
+      ]
+     },
+     "execution_count": 232,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "ba = True\n",
+    "bb = 'true'\n",
+    "type(ba), type(bb)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 233,
+   "id": "72a86d1e-d8c2-4f37-b339-9c70b5a70fe2",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 233,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "ba == 1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 258,
+   "id": "bec94741-5378-4a94-ac8f-4091dd1abec4",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "1"
+      ]
+     },
+     "execution_count": 258,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#논리 연산자 - and or not\n",
+    "\n",
+    "bc = 1\n",
+    "ba and bc"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "da2a08d1-2fbe-4969-8b13-395d0f1acbed",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#사칙연산 + - * / , //(값) , %(나머지)\n",
+    "\n",
+    "a = 2\n",
+    "b = 3"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "4fa9feba-e764-474a-8602-6d927180da3a",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "(0.6666666666666666, 0, 2)"
+      ]
+     },
+     "execution_count": 5,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a+b\n",
+    "a-b\n",
+    "a*b\n",
+    "a/b, a//b, a%b #몫, 나머지"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "286b3a75-0240-4949-bba2-7a6b72a5a82e",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "False"
+      ]
+     },
+     "execution_count": 15,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#비교 연산자\n",
+    "1+2 == 3\n",
+    "1+2 != 3\n",
+    "1+3 <= 4"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "818a10df-5a2b-4256-b0cc-7164d8173b9d",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 18,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#비교연산자와 논리연산자의 결합\n",
+    "10%2 == 0 and 12%3 == 0"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "3efe9c7b-6a52-4e98-ba0f-f673c9d1fed9",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "('1234', '5678', 1393759606832, 1393784591760)"
+      ]
+     },
+     "execution_count": 19,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a = '1234'\n",
+    "b = '5678'\n",
+    "a,b, id(a), id(b)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "39761474-5ef5-4af4-a8ee-0002ef4306aa",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "(10, 12)"
+      ]
+     },
+     "execution_count": 20,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#대입연산자\n",
+    "a = 10\n",
+    "b = a+2\n",
+    "a,b"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "6d58f021-68b3-4f47-9bd2-33d70779b10e",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "21"
+      ]
+     },
+     "execution_count": 22,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a = 20\n",
+    "a += 1 #a = a+1\n",
+    "a"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 123,
+   "id": "00539f4a-4a90-46cc-b11e-556b01d27530",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "-73"
+      ]
+     },
+     "execution_count": 123,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a -= 1 \n",
+    "a"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 43,
+   "id": "653e18bd-1230-4928-9fcf-5ee3339b16fb",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "7"
+      ]
+     },
+     "execution_count": 43,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a = 3\n",
+    "b = 2\n",
+    "a += 2 + b\n",
+    "a"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "3c508e79-d36d-4881-b9d6-de8cf7bcdd27",
+   "metadata": {},
+   "source": [
+    "# 문자열 str\n",
+    "' ', \" \", \"\"\" \"\"\", ''' ''' docstring\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 126,
+   "id": "d104ed5e-128c-45be-a714-016f07fc21df",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'hellopython'"
+      ]
+     },
+     "execution_count": 126,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a = 'hello'\n",
+    "b = 'python'\n",
+    "c = '*'\n",
+    "c*10\n",
+    "a+b # 더하기는 문자열끼리 "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 128,
+   "id": "a0ed8a3f-afdd-4b17-b860-363c5df1778a",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "\"kim's family\""
+      ]
+     },
+     "execution_count": 128,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "d = \"kim's family\"\n",
+    "d"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 129,
+   "id": "01e83144-cfa7-49cc-99a6-b4a53d8fd37c",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 129,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "e = '1'\n",
+    "e == '1'"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 145,
+   "id": "e08e17c2-dc9e-46ba-93ad-526ea6b1eb65",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'30010331Rabcd'"
+      ]
+     },
+     "execution_count": 145,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#문자열은 리스트, 열거형\n",
+    "a='20010331Rabcd' #13개의 글자의 목록\n",
+    "'3' + a[1:]  #숫자 자리수 > 인덱스"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 134,
+   "id": "e8935a60-070b-47bb-8b4a-dca675b782d6",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'200'"
+      ]
+     },
+     "execution_count": 134,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a[0:3] #해석 0부터 3개 가져와 (콜론), 슬라이싱 slice"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 138,
+   "id": "57fc1ba6-e007-48bf-8498-f0f5711ff221",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'Rab'"
+      ]
+     },
+     "execution_count": 138,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#rab a='20010331Rabcd'\n",
+    "a[8:11]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 141,
+   "id": "e63dae6c-b867-46d1-a4f2-a09b49755f68",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'abcd'"
+      ]
+     },
+     "execution_count": 141,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a[9:13]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 142,
+   "id": "a1862280-cfa8-47f5-89d9-844ac755d5f4",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 142,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s='abc'\n",
+    "a=s\n",
+    "a is s"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "2707c95d-5c42-4719-95e3-987dcb3b4ea3",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "b = s[:] # [:] 전부 가져와 십새기야 \n",
+    "a is b"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 144,
+   "id": "dc3e2914-6694-416f-9eab-77f453b13868",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 144,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s1 = '1'*1000\n",
+    "b = s1[:]\n",
+    "s1 == b"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.9"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
